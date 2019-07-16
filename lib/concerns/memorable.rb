@@ -11,7 +11,7 @@ module Memorable
 
   module InstanceMethods
     def initialize(name)
-      class.all << name
+      all << name
       # some more code coming soon!
     end
   end
